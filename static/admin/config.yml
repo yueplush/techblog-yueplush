@@ -2,22 +2,68 @@ backend:
   name: github
   repo: yueplush/techblog-yueplush
   branch: main
-  base_url: https://<YOUR_OAUTH_ENDPOINT>
-  auth_endpoint: /oauth/authorize
+  # ローカルGUI運用（OAuth不要）
+  # base_url: https://<YOUR_OAUTH_ENDPOINT>
+  # auth_endpoint: /oauth/authorize
 
+# 既定（サイト全体のデフォルト）— Posts では個別設定を上書きするのでそのまま残す
 media_folder: "static/uploads"
 public_folder: "/uploads"
+
 publish_mode: editorial_workflow
 
 collections:
+  # 投稿（Posts）— ページバンドル化 & 記事フォルダへ直接アップロード
   - name: "posts"
     label: "Posts"
     folder: "content/posts"
     create: true
     slug: "{{slug}}"
+    path: "{{slug}}/index"     # ← index.md を作る（= ページバンドル）
+    # 記事フォルダ直下に保存（相対パスで本文に挿入される）
+    media_folder: ""           # ← 空: index.md と同じフォルダに置く
+    public_folder: ""          # ← 空: 相対パス（例: image.png）で挿入
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Tags", name: "tags", widget: "list", allow_add: true }
+      - { label: "Cover Image", name: "cover", widget: "image", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
 
+  # 固定ページ（About）
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "About"
+        name: "about"
+        file: "content/about.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body",  name: "body",  widget: "markdown" }
+
+  # サイト設定（config.toml をGUI編集：author/description/avatar）
+  - name: "site"
+    label: "Site"
+    files:
+      - label: "Site Settings"
+        name: "settings"
+        file: "config.toml"
+        format: "toml"
+        fields:
+          - label: "Params"
+            name: "params"
+            widget: "object"
+            fields:
+              - { label: "Author", name: "author", widget: "string" }
+              - { label: "Description", name: "description", widget: "string" }
+              - label: "Avatar"
+                name: "avatar"
+                widget: "image"
+                choose_url: false
+                allow_multiple: false
+                media_folder: "static/uploads"
+                public_folder: "/uploads"
+
+# decap-server を使ったローカルCMS
 local_backend: true
+

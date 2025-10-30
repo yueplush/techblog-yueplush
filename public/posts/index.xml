@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Your title</title>
+    <title>Posts on Uplink Outlaw - Niche Tech Articles</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Your title</description>
+    <description>Recent content in Posts on Uplink Outlaw - Niche Tech Articles</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Oct 2025 22:29:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 30 Oct 2025 23:34:00 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>うあああっぁぁあああああ！！！！</title>
+      <link>http://localhost:1313/posts/%E3%81%86%E3%81%82%E3%81%82%E3%81%82%E3%81%A3%E3%81%81%E3%81%81%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82/</link>
+      <pubDate>Thu, 30 Oct 2025 23:34:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/%E3%81%86%E3%81%82%E3%81%82%E3%81%82%E3%81%A3%E3%81%81%E3%81%81%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82/</guid>
+      <description>&lt;p&gt;あと一ヶ月で2025年が終わってしまう!!!!!!!!!!!!!!!&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;img_0045.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>適当にテスト</title>
+      <link>http://localhost:1313/posts/%E9%81%A9%E5%BD%93%E3%81%AB%E3%83%86%E3%82%B9%E3%83%88/</link>
+      <pubDate>Thu, 30 Oct 2025 23:14:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/%E9%81%A9%E5%BD%93%E3%81%AB%E3%83%86%E3%82%B9%E3%83%88/</guid>
+      <description>&lt;p&gt;うわああああああああああああ！！！！！今年が終わってしまう！！！！！！！！！！！！&lt;/p&gt;&#xA;&lt;p&gt;#test #tagtest&lt;/p&gt;</description>
+    </item>
     <item>
       <title>おるとか、おらんとか</title>
       <link>http://localhost:1313/posts/%E3%81%8A%E3%82%8B%E3%81%A8%E3%81%8B%E3%81%8A%E3%82%89%E3%82%93%E3%81%A8%E3%81%8B/</link>

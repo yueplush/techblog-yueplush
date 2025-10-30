@@ -3,10 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-10-30T22:29:00+09:00</lastmod>
+    <lastmod>2025-10-30T23:34:00+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-10-30T22:29:00+09:00</lastmod>
+    <lastmod>2025-10-30T23:34:00+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/%E3%81%86%E3%81%82%E3%81%82%E3%81%82%E3%81%A3%E3%81%81%E3%81%81%E3%81%82%E3%81%82%E3%81%82%E3%81%82%E3%81%82/</loc>
+    <lastmod>2025-10-30T23:34:00+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/%E9%81%A9%E5%BD%93%E3%81%AB%E3%83%86%E3%82%B9%E3%83%88/</loc>
+    <lastmod>2025-10-30T23:14:00+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/%E3%81%8A%E3%82%8B%E3%81%A8%E3%81%8B%E3%81%8A%E3%82%89%E3%82%93%E3%81%A8%E3%81%8B/</loc>
     <lastmod>2025-10-30T22:29:00+09:00</lastmod>
@@ -15,28 +21,6 @@
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/configuration/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/development/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/docs/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/go/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/golang/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/jekyll/</loc>
-  </url><url>
     <loc>http://localhost:1313/tags/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/templates/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/test/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/themes/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/tutorial/</loc>
   </url>
 </urlset>
