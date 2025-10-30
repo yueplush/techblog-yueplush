@@ -2,92 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/hello/</loc>
-    <lastmod>2025-10-30T21:58:44+09:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-10-30T21:58:44+09:00</lastmod>
+    <lastmod>2025-10-30T22:29:00+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-10-30T21:58:44+09:00</lastmod>
+    <lastmod>2025-10-30T22:29:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/creating-a-new-theme/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/themes/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/goisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/configuration/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/docs/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/hugoisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/go/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/templates/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/tutorial/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/migrate-from-jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/test/</loc>
-    <lastmod>1012-01-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/test-9/</loc>
-    <lastmod>1012-01-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/test-8/</loc>
-    <lastmod>1012-01-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/test-7/</loc>
-    <lastmod>1012-01-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/test-6/</loc>
-    <lastmod>1012-01-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/test-5/</loc>
-    <lastmod>1012-01-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/test-4/</loc>
-    <lastmod>1012-01-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/test-3/</loc>
-    <lastmod>1012-01-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/test-2/</loc>
-    <lastmod>1012-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/test-1/</loc>
-    <lastmod>1012-01-01T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/posts/%E3%81%8A%E3%82%8B%E3%81%A8%E3%81%8B%E3%81%8A%E3%82%89%E3%82%93%E3%81%A8%E3%81%8B/</loc>
+    <lastmod>2025-10-30T22:29:00+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/configuration/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/development/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/docs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/go/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/golang/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/hugo/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/jekyll/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/templates/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/test/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/themes/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/tutorial/</loc>
   </url>
 </urlset>
