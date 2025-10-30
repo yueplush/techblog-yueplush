@@ -1,0 +1,21 @@
+backend:
+  name: github
+  repo: yueplush/techblog-yueplush
+  branch: main
+  base_url: https://<YOUR_OAUTH_ENDPOINT>
+  auth_endpoint: /oauth/authorize
+
+media_folder: "static/uploads"
+public_folder: "/uploads"
+publish_mode: editorial_workflow
+
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "content/posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
